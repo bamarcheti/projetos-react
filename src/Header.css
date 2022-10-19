@@ -1,0 +1,28 @@
+.Header {
+    display: table-row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.HeaderMenu {
+    width: 1024px;
+    background-color: aqua;
+}
+
+.HeaderMenu a {
+    margin-right: 20px;
+}
+
+.HeaderBody {
+    background-color: blue;
+}
+
+.HeaderLogo img {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.HeaderCorpo h2 {
+    padding-top: 30px;
+}
