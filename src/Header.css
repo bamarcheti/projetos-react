@@ -1,28 +1,31 @@
 .Header {
     display: table-row;
     justify-content: space-between;
-    padding: 10px;
-}
-
-.HeaderMenu {
-    width: 1024px;
-    background-color: aqua;
 }
 
 .HeaderMenu a {
     margin-right: 20px;
+    color: white;
 }
 
 .HeaderBody {
-    background-color: blue;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
 }
 
-.HeaderLogo img {
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+img {
+    justify-content: center;
 }
 
-.HeaderCorpo h2 {
-    padding-top: 30px;
+button {
+    margin-top: 10px;
+    font-size: 16pt;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(15, 161, 187);
+    color: white;
+    cursor: pointer;
 }
