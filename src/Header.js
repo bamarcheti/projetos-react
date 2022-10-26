@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import Contador from './Contador';
 import './Header.css';
+import Relogio from './Relogio';
 import Sorteador from './Sorteador';
 
 function Header(props) {
@@ -16,6 +18,7 @@ function Header(props) {
 				<a href=''>Sobre</a>
 			</div>
 			<div className='HeaderBody'>
+				<Contador />
 				<div className="HeaderLogo">
 					<img src="logo192.png" alt="" ></img>
 				</div>
@@ -24,6 +27,7 @@ function Header(props) {
 					<button onClick={resultadoAtualizado}>Sortear</button>
 					<h3>{resultado}</h3>
 				</div>
+				<Relogio />
 			</div>
 		</div>
 	);
