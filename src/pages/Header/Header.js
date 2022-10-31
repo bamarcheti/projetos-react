@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import Contador from './Contador';
+import Contador from '../Contador/Contador';
+import Sorteador from '../Sorteador/Sorteador';
 import './Header.css';
-import Relogio from './Relogio';
-import Sorteador from './Sorteador';
 
-function Header(props) {
+function Header() {
 	const [resultado, setResultado] = useState('');
 
 	const resultadoAtualizado = () => {
@@ -12,22 +11,14 @@ function Header(props) {
 	}
 
 	return (
-		<div className="Header">
-			<div className="HeaderMenu">
-				<a href=''>Home</a>
-				<a href=''>Sobre</a>
-			</div>
+		<div className='Header'>
 			<div className='HeaderBody'>
 				<Contador />
-				<div className="HeaderLogo">
-					<img src="logo192.png" alt="" ></img>
-				</div>
 				<div className='HeaderCorpo'>
 					<h2>Sorteie 1 número: </h2>
 					<button onClick={resultadoAtualizado}>Sortear</button>
 					<h3>{resultado}</h3>
 				</div>
-				<Relogio />
 			</div>
 		</div>
 	);

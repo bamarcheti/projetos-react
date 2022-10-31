@@ -1,0 +1,28 @@
+.Navbar {
+  position: relative;
+}
+
+.menu {
+  color: white;
+}
+
+.Painel {
+  padding: 5px;
+  text-align: center;
+  margin: 15px;
+}
+
+.navigation:link,
+.navigation:visited {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navigation:hover,
+.navigation:active {
+  color: #b5b1b1;
+}
