@@ -1,6 +1,6 @@
-function Sorteador() {
-	var min = Math.ceil(10);
-	var max = Math.floor(100);
+function Sorteador(min, max) {
+	var min = Math.ceil(min);
+	var max = Math.floor(max);
 	return Math.floor(Math.random() * (max - min) + min);
 }
 
