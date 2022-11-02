@@ -5,9 +5,9 @@ import './Header.css';
 
 function Header() {
 	const [resultado, setResultado] = useState('');
-
+	
 	const resultadoAtualizado = () => {
-		setResultado(Sorteador());
+		setResultado(Sorteador(1, 100));
 	}
 
 	return (
