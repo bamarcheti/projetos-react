@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 import Sorteador from '../Sorteador/Sorteador';
+import './UserList.css';
 
 function UserList() {
 	const [resultado, setResultado] = useState('');
@@ -13,20 +14,36 @@ function UserList() {
 	}
 
 	return (
-		<div className='user-painel'>
-			<button onClick={gerarNomeUsuarios}>AQUI</button>
-			<h3 className='h3'>{resultado.id}</h3>
-			<h1 className='h1'>Nome: {resultado.name}</h1>
-			<h3 className='h3'>Sobrenome: {resultado.username}</h3>
-			<h3 className='h3'>Email: {resultado.email}</h3>
-			<h3 className='h3'>Endereço: {resultado.address?.street}, {resultado.address?.suite}</h3>
-			<h3 className='h3'>{resultado.address?.city}, {resultado.address?.zipcode}</h3>
-			<h3 className='h3'>Geolocalização: {resultado.geo?.lat}, {resultado.geo?.lng}</h3>
-			<h3 className='h3'>Telefone: {resultado.phone}</h3>
-			<h3 className='h3'>Site: {resultado.website}</h3>
-			<h3 className='h3'>Empresa: {resultado.company?.name}</h3>
-			<h3 className='h3'> {resultado.company?.catchPhrase}</h3>
-			<h3 className='h3'> {resultado.company?.bs}</h3>
+		<div className='userPainel'>
+			<p>Clique no botão para ver os dados dos usuários:</p>
+			<button onClick={gerarNomeUsuarios}>Próximo</button>
+			<div className='list'>
+				<div className='listLeft'>
+					<h3 className='id'>{resultado.id}</h3>
+					<h3 className='h3'>Nome:</h3>
+					<h4 className='result'>{resultado.name}</h4>
+					<h3 className='h3'>Sobrenome:</h3>
+					<h4 className='result'>{resultado.username}</h4>
+					<h3 className='h3'>Email:</h3>
+					<h4 className='result'>{resultado.email}</h4>
+					<h3 className='h3'>Endereço:</h3>
+					<h4 className='result'>{resultado.address?.street} {resultado.address?.suite} <br />
+						{resultado.address?.city} {resultado.address?.zipcode}</h4>
+				</div>
+
+				<div className='listRight'>
+					<h3 className='h3'>Geolocalização:</h3>
+					<h4 className='result'>{resultado.geo?.lat} {resultado.geo?.lng}</h4>
+					<h3 className='h3'>Telefone:</h3>
+					<h4 className='result'>{resultado.phone}</h4>
+					<h3 className='h3'>Site:</h3>
+					<h4 className='result'>{resultado.website}</h4>
+					<h3 className='h3'>Empresa:</h3>
+					<h4 className='result'>{resultado.company?.name}</h4>
+					<h4 className='result'> {resultado.company?.catchPhrase}</h4>
+					<h4 className='result'> {resultado.company?.bs}</h4>
+				</div>
+			</div>
 		</div>
 	)
 }
