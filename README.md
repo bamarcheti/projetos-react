@@ -4,7 +4,7 @@
 
 Projeto construído em sala de aula sendo pedido pelo professor para rodar um projeto simples da qual seja possível sortear um número.
 
-[🔗 Clique aqui para acessar](https://bamarcheti.github.io/sorteador-react/)
+[🔗 Clique aqui para acessar](https://bamarcheti.github.io/sorteador-react/#/)
 
 
 ## __🛠 Tecnologias__
