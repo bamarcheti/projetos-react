@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import '../App.css';
+import './Search.css';
 
 function Search(props) {
   const [cidade, setCidade] = useState("");
 
   function searchInput(e) {
-    
+
     e.preventDefault();
     let currentValue = document.querySelector('input[name=searchInput]').value;
 
@@ -45,17 +45,20 @@ function Search(props) {
             name="seachInput"
           />
           <input
+            className='submit'
             type="submit"
-            value="Pesquisar por cidade!"
+            value="Pesquisar"
           />
         </form>
       </div>
+
+      <br />
+
       {
         (cidade !== "") ?
-        <div dangerouslySetInnerHTML={{__html: cidade}} /> : <div>Pesquise por algo acima...</div>
+          <div dangerouslySetInnerHTML={{ __html: cidade }} /> : <div>Pesquise por algo acima...</div>
       }
     </div>
-
   )
 }
 
