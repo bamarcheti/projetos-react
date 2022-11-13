@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import Relogio from '../Relogio/Relogio';
+import Clock from '../Clock/Clock';
 import './Navbar.css';
 
 function Navbar() {
@@ -12,7 +12,7 @@ function Navbar() {
 						<Link className='navigation' to='/'>Home</Link>
 						<Link className='navigation' to='/user-list'>Users</Link>
 					</nav>
-					<Relogio />
+					<Clock />
 				</div>
 				<Outlet />
 			</div>

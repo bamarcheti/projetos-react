@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
-import Contador from '../Contador/Contador';
-import Sorteador from '../Sorteador/Sorteador';
+import Counter from '../Counter/Counter';
+import Raffle from '../Raffle/Raffle';
 import './Header.css';
 
 function Header() {
 	const [resultado, setResultado] = useState('');
 	
 	const resultadoAtualizado = () => {
-		setResultado(Sorteador(1, 100));
+		setResultado(Raffle(1, 100));
 	}
 
 	return (
 		<div className='Header'>
 			<div className='HeaderBody'>
-				<Contador />
+				<Counter />
 				<div className='HeaderCorpo'>
 					<h2>Sorteie 1 número: </h2>
 					<button onClick={resultadoAtualizado}>Sortear</button>

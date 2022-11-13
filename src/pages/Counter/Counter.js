@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import './Contador.css';
+import './Counter.css';
 
-function Contador() {
+function Counter() {
 	const [count, setCount] = useState(0);
 
 	return (
-		<div className='ContadorBody'>
+		<div className='CounterBody'>
 			<h2>Voce clicou {count} vezes</h2>
 			<button onClick={() => setCount(count + 1)}>
 				Clique aqui
@@ -14,4 +14,4 @@ function Contador() {
 	)
 }
 
-export default Contador;
+export default Counter;

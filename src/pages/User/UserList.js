@@ -1,13 +1,13 @@
 import axios from 'axios';
 import React, { useState } from 'react';
-import Sorteador from '../Sorteador/Sorteador';
+import Raffle from '../Raffle/Raffle';
 import './UserList.css';
 
 function UserList() {
 	const [resultado, setResultado] = useState('');
 
 	const gerarNomeUsuarios = () => {
-		axios.get(`https://jsonplaceholder.typicode.com/users/${Sorteador(1, 10)}`)
+		axios.get(`https://jsonplaceholder.typicode.com/users/${Raffle(1, 10)}`)
 			.then(res => {
 				setResultado(res.data);
 			});
