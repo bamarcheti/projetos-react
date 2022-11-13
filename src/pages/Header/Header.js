@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Counter from '../Counter/Counter';
+import Counter from '../../components/Counter/Counter';
 import Raffle from '../Raffle/Raffle';
 import './Header.css';
 
