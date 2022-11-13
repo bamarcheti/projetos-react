@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useState } from 'react';
-import Raffle from '../Raffle/Raffle';
+import Raffle from '../../components/Raffle/Raffle';
 import './UserList.css';
 
 function UserList() {

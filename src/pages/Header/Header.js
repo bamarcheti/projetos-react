@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Counter from '../../components/Counter/Counter';
-import Raffle from '../Raffle/Raffle';
+import Raffle from '../../components/Raffle/Raffle';
 import './Header.css';
 
 function Header() {

@@ -1,6 +1,6 @@
 .Header {
-    display: table-row;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
 }
 
 .HeaderBody {

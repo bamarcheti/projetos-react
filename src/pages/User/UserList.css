@@ -17,26 +17,19 @@
 .listLeft {
     text-align: left;
     border-radius: 15px;
-
-    /* -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding: 10px;
-  height: 300px; */
+    flex: 1;
+    -ms-flex: 1;
+    padding: 10px;
+    -webkit-flex: 1;
 }
 
 .listRight {
     margin-top: 10%;
     text-align: left;
     border-radius: 15px;
-    margin-left: 10px
-    /* padding: 25px; */
-
-    /* -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding: 10px;
-  height: 300px; */
+    margin-left: 10px;
+    -ms-flex: 1;
+    -webkit-flex: 1;
 }
 
 p {
