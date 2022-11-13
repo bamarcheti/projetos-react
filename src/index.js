@@ -14,7 +14,7 @@ root.render(
       <Route path='/' element={<Navbar />}>
         <Route index element={<App />} />
         <Route path='user-list' element={<UserList />} />
-        <Route path='weather-forecast' element={<Search />} />
+        <Route path='weather-forecast' element={<Search placeholder="Digite aqui" />} />
       </Route>
     </Routes>
   </HashRouter>
