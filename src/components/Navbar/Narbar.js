@@ -10,7 +10,7 @@ function Navbar() {
 				<nav className='Painel'>
 					<Link className='navigation' to='/'>Home</Link>
 					<Link className='navigation' to='/user-list'>Users</Link>
-					<Link className='navigation' to="weather-forecast">Weather</Link>
+					<Link className='navigation' to="aleatory">Aleatory</Link>
 				</nav>
 				<Clock />
 			</div>

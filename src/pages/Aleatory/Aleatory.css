@@ -1,0 +1,10 @@
+.aleatory {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  background-color: #FFF;
+  border-radius: 15px;
+  position: static;
+  padding: 25px;
+  margin: 35px;
+}
