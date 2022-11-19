@@ -2,9 +2,9 @@
 
 ![preview](./.github/preview.png)
 
-Projeto construído em sala de aula sendo pedido pelo professor para rodar um projeto simples da qual seja possível sortear um número.
+Projeto construído em sala de aula. Sendo pedido pelo professor primeiramente para criar um projeto em que trocava de imagens. Na sequência, foi pedido pela criação de um sorteador, logo após um contador e juntamente com rotas. Em seguida, foi pedido por uma listagems integrada a uma api. Sendo assim a junção de diversos conteúdos passados pelo professor.
 
-[🔗 Clique aqui para acessar](https://bamarcheti.github.io/sorteador-react/#/)
+[🔗 Clique aqui para acessar](https://bamarcheti.github.io/projetos-react/#/)
 
 
 ## __🛠 Tecnologias__
