@@ -1,10 +1,12 @@
 .userPainel {
+    display: row;
     justify-content: center;
-    position: relative;
+    position: static;
     background-color: #FFF;
     margin-top: 10%;
     border-radius: 15px;
     padding: 25px;
+    margin: 35px;
 }
 
 .list {
