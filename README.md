@@ -2,7 +2,7 @@
 
 ![preview](./.github/preview.png)
 
-Projeto construído em sala de aula. Sendo pedido pelo professor primeiramente para criar um projeto em que trocava de imagens. Na sequência, foi pedido pela criação de um sorteador, logo após um contador e juntamente com rotas. Em seguida, foi pedido por uma listagems integrada a uma api. Sendo assim a junção de diversos conteúdos passados pelo professor.
+Projeto construído em sala de aula. Sendo pedido pelo professor primeiramente para criar um projeto em que alterasse de forma aleatória as imagens contendo um temporizador. Na sequência, foi pedido pela criação de um sorteador, logo após um contador e juntamente com rotas. Em seguida, foi pedido por uma listagems integrada a uma api. Sendo assim a junção de diversos conteúdos passados pelo professor.
 
 [🔗 Clique aqui para acessar](https://bamarcheti.github.io/projetos-react/#/)
 
